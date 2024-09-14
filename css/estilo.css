@@ -1,0 +1,116 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+}
+
+.menu li {
+    margin:0 5px;
+}
+
+.menu li a {
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    background-color: #444;
+    border-radius: 3px;
+}
+
+.container{
+    display:flex;
+    height: 500px;
+    width: 800px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.rodape{
+    background-color: #777;
+    flex:1;
+    flex-direction: column;
+}
+
+.parteDeCima{
+    background-color: #ffcbdb;
+    display:flex;
+    flex:2;
+}
+
+.esquerda {
+    background-color: #999;
+    display: flex;
+    flex-direction: column;
+    flex:2;
+}
+
+.direita {
+    background-color: #888;
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
+
+.header {
+    background-color: #666;
+    flex:1;
+}
+
+.cabecalho{
+    background-color: #bbb;
+    display:flex;
+    flex:1;
+}
+
+.menuD{
+    display:flex;
+    flex:1;
+}
+
+.artigos{
+    flex:1;
+    display: flex;
+}
+
+.artigo1{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+}
+
+.artigo2{
+    display:flex;
+    flex:1;
+    background-color:gray;
+    flex-direction: column;
+}
+
+
+.fonte{
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+#itens{
+    background-color: #bbb;
+}
+#itens li a {
+    font-size: xx-small;
+    padding: 10px 10px;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+#itens{
+    background-color: transparent;
+}
+
+#artigos{
+    flex:3;
+}
+
+#textin{
+    flex:2;
+}
